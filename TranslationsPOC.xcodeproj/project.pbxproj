@@ -12,6 +12,7 @@
 		F6BF8F6F2461ACB20017713E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BF8F6E2461ACB20017713E /* AppDelegate.swift */; };
 		F6BF8F732461ACB20017713E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BF8F722461ACB20017713E /* ViewController.swift */; };
 		F6BF8F782461ACB30017713E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6BF8F772461ACB30017713E /* Assets.xcassets */; };
+		F6EDAEEF2461F1C9009D64D2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F6EDAEF12461F1C9009D64D2 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,10 @@
 		F6BF8F722461ACB20017713E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F6BF8F772461ACB30017713E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F6BF8F7C2461ACB30017713E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6EDAEF02461F1C9009D64D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F6EDAEF22461F1D1009D64D2 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F6EDAEF32461F1D6009D64D2 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F6EDAEF42461F1D8009D64D2 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +43,7 @@
 		F602347F2461AD03006B23BA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				F6661AC22461F05B00E34E42 /* Localizable */,
 				F6BF8F772461ACB30017713E /* Assets.xcassets */,
 			);
 			path = Resources;
@@ -58,6 +64,14 @@
 				F60234832461ADD9006B23BA /* Main.storyboard */,
 			);
 			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		F6661AC22461F05B00E34E42 /* Localizable */ = {
+			isa = PBXGroup;
+			children = (
+				F6EDAEF12461F1C9009D64D2 /* Localizable.strings */,
+			);
+			path = Localizable;
 			sourceTree = "<group>";
 		};
 		F6BF8F622461ACB20017713E = {
@@ -150,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F60234862461ADD9006B23BA /* LaunchScreen.storyboard in Resources */,
+				F6EDAEEF2461F1C9009D64D2 /* Localizable.strings in Resources */,
 				F6BF8F782461ACB30017713E /* Assets.xcassets in Resources */,
 				F60234852461ADD9006B23BA /* Main.storyboard in Resources */,
 			);
@@ -168,6 +183,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F6EDAEF12461F1C9009D64D2 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6EDAEF02461F1C9009D64D2 /* en */,
+				F6EDAEF22461F1D1009D64D2 /* ru */,
+				F6EDAEF32461F1D6009D64D2 /* uk */,
+				F6EDAEF42461F1D8009D64D2 /* de */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		F6BF8F7D2461ACB30017713E /* Debug */ = {
