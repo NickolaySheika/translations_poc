@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        mainLabel.text = NSLocalizedString("hello_world", comment: "hello_world")
+        mainLabel.text = NSLocalizedString("status_user_identity_placeholder", comment: "status_user_identity_placeholder")
     }
 
 }

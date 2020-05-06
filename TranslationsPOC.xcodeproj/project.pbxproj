@@ -24,8 +24,6 @@
 		F6BF8F772461ACB30017713E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F6BF8F7C2461ACB30017713E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F6EDAEF02461F1C9009D64D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		F6EDAEF22461F1D1009D64D2 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
-		F6EDAEF32461F1D6009D64D2 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F6EDAEF42461F1D8009D64D2 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -144,8 +142,6 @@
 			knownRegions = (
 				en,
 				Base,
-				ru,
-				uk,
 				de,
 			);
 			mainGroup = F6BF8F622461ACB20017713E;
@@ -189,8 +185,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				F6EDAEF02461F1C9009D64D2 /* en */,
-				F6EDAEF22461F1D1009D64D2 /* ru */,
-				F6EDAEF32461F1D6009D64D2 /* uk */,
 				F6EDAEF42461F1D8009D64D2 /* de */,
 			);
 			name = Localizable.strings;
