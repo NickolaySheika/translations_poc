@@ -46,7 +46,7 @@ fastlane/test_output/*
 test-build-config.sh
 
 # Localization
-TranslationsPOC/Resources/Localizable/*
+#TranslationsPOC/Resources/Localizable/*
 
 # Intellij
 .idea/
