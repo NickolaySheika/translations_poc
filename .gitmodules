@@ -1,0 +1,4 @@
+[submodule "TranslationsPOC/Resources/Localizable"]
+	path = TranslationsPOC/Resources/Localizable
+	url = https://github.com/NickolaySheika/translations_test.git
+	branch = only_ios
